@@ -7,7 +7,7 @@ I created a password generator application so that people can get a secure passw
 
 ## Usage
 
-To use my password generator application you will need to click on the red "Generate Password" button on the middle of the page. You will then be prompted to select a password length between 8-128 characters. Once you have selcted the length you desire you will be given additional prompts asking which character types you would like to include, press "OK" or "Cancel" depending on whether you would like the specific character type included in your password- please take into account that at least one charcter type must be selected. Once you have completed the prompts, your new password will be displayed on the page. Feel free to copy and use it as you see fit. Thank you for using my application!
+To use my password generator application you will need to click on the red "Generate Password" button on the middle of the page. You will then be prompted to select a password length between 8-128 characters. Once you have selcted the length you desire you will be given additional prompts asking which character types you would like to include, press "OK" or "Cancel" depending on whether you would like the specific character type included in your password- please take into account that at least one character type must be selected. Once you have completed the prompts, your new password will be displayed on the page. Feel free to copy and use it as you see fit. Thank you for using my application!
 
 <br></br>
 
