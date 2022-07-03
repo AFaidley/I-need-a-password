@@ -53,7 +53,7 @@ function generatePassword() {
   if (char == 0) {
     alert("You must select a character type!");
   }
-
+// Generates a string of random characters
   for (let i = 0; i < passwordLength; i++) {
     password += char.charAt(Math.floor(Math.random() * char.length));
   }
