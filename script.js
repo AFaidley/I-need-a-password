@@ -1,5 +1,6 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
+// Possible character inputs for password
 var lowerCaseLetters = "abcdefghijklmnopqrstuvwxyz";
 var upperCaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var numbers = "0123456789";
@@ -8,17 +9,18 @@ var char = "";
 // Write password to the #password input
 function generatePassword() {
   var password = "";
+  // Prompts user to choose a password length
   var passwordLength = prompt(
     "Choose a password length between 8 and 128 characters"
   );
-
+  // If password length is not in the given range an alert will show
   while (passwordLength < 8 || passwordLength > 128) {
     alert("Password must be between 8 and 128 characters");
     passwordLength = prompt(
       "Choose a password length between 8 and 128 characters"
     );
   }
-
+  // Options for what characters the user would like included in the password
   var charLower = confirm(
     "Press OK if you would like your password to contain lowercase letters."
   );
@@ -31,7 +33,7 @@ function generatePassword() {
   var charSpec = confirm(
     "Press OK if you would like your password to contain special characters."
   );
-
+    // Adds the chosen charcters
   if (charLower === true) {
     char += lowerCaseLetters;
   }
@@ -47,7 +49,7 @@ function generatePassword() {
   if (charSpec === true) {
     char += special;
   }
-
+  // Alert will show if no character type is selected
   if (char == 0) {
     alert("You must select a character type!");
   }
