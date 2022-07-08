@@ -1,9 +1,10 @@
+/* Universal Selector */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
-
+/* Element selectors */
 html,
 body,
 .wrapper {
@@ -17,17 +18,17 @@ body {
   background-color: #f9fbfd;
 }
 
-.wrapper {
-  padding-top: 30px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
 header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
   color: hsl(206, 17%, 28%);
+}
+/* Class selectors */
+.wrapper {
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .card {
@@ -96,7 +97,7 @@ button[disabled] {
 .float-right {
   float: right;
 }
-
+/* ID selectors */
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -117,7 +118,7 @@ button[disabled] {
   resize: none;
   overflow: hidden;
 }
-
+/* Media queries */
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
